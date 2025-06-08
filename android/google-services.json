@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "581519950118",
+    "project_id": "homi-dc039",
+    "storage_bucket": "homi-dc039.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581519950118:android:cd1031979e413730a001e7",
+        "android_client_info": {
+          "package_name": "com.example.homi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581519950118-llbjrpmbe8hvpcm5p9n16b31sadvveee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homi",
+            "certificate_hash": "326f0a009be2713db413cd99e84d01d519a50944"
+          }
+        },
+        {
+          "client_id": "581519950118-0e753796bpd2gu6krk2ufo57tmg6q6h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZBmwY834MCSI7ioedbbYwqjOyymQws8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581519950118-0e753796bpd2gu6krk2ufo57tmg6q6h1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581519950118-j3m819majf3mk6cff7i9ivplk7kmou5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wiseSplashScreen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

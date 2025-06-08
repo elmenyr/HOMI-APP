@@ -1,0 +1,377 @@
+{
+    "appName": "Homi",
+    "home": "Home",
+    "favorites": "Favorites",
+    "services": "Services",
+    "agents": "Agents",
+    "settings": "Settings",
+    "searchHint": "Search properties...",
+    "propertyType": "Property Type",
+    "all": "All",
+    "apartment": "Apartment",
+    "house": "House",
+    "studio": "Studio",
+    "price": "Price",
+    "location": "Location",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "toUni": "To Uni",
+    "wifi": "WiFi",
+    "ac": "AC",
+    "available": "Available",
+    "insurance": "Insurance: {amount} EGP",
+    "description": "Description",
+    "aboutProperty": "About Property",
+    "rateProperty": "Rate Property",
+    "tapToRate": "Tap to rate",
+    "yourRating": "Your rating: {rating}",
+    "getDirections": "Get Directions",
+    "viewArea": "View Area",
+    "requestProperty": "Request Property",
+    "status": "Status: {status}",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "photos": "Photos",
+    "video": "Video",
+    "distance": "{distance} km",
+    "yes": "Yes",
+    "no": "No",
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    
+    "account": "Account",
+    "changePassword": "Change Password",
+    "updatePassword": "Update your account password",
+    "workingHours": "Working Hours",
+    "configureHours": "Configure business hours",
+    "information": "Information",
+    "appVersion": "App Version",
+    "privacyPolicy": "Privacy Policy",
+    "readPrivacy": "Read our privacy policy",
+    "contactUs": "Contact Us",
+    "getSupport": "Get help and support",
+    "helpAndSupport": "Help & Support",
+    "resetNavTour": "Reset Navigation Tour",
+    "showNavExplanation": "Show navigation explanation again",
+    "signOut": "Sign Out",
+    "signOutConfirm": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "error": "Error",
+    "tryAgain": "Try Again",
+    "close": "Close",
+    "admin": "Admin",
+    "user": "User",
+    "noEmail": "No email",
+    "lastUpdated": "Last updated: January 2024",
+    "privacyText": "We respect your privacy and are committed to protecting your personal data...\n\nContact Us:\nIf you have any questions about this Privacy Policy, please contact us.",
+    "search": "Search",
+    "propId": "Property ID",
+    "advancedFilters": "Advanced Filters",
+    "sortBy": "Sort By",
+    "rating": "Rating",
+    "selectLocation": "Select Location",
+    "roomConfig": "Room Configuration",
+    "beds": "Beds",
+    "baths": "Bathrooms",
+    "propertyDetails": "Property Details",
+    "gender": "Gender",
+    "amenities": "Amenities",
+    "airConditioning": "Air Conditioning",
+    "additionalFeatures": "Additional Features",
+    "insuranceAvailable": "Insurance Available",
+    "minimumRating": "Minimum Rating",
+    "reset": "Reset",
+    "apply": "Apply",
+    "notAvailable": "Not Available",
+    "perMonth": "/month",
+    "noPropertiesFound": "No Properties Found",
+    "adjustFilters": "Try adjusting your filters",
+    "virtualTour": "Virtual Tour",
+    "virtualTourFeature": "Virtual Reality Tour",
+    "virtualTourDesc": "Experience an immersive virtual tour of this property in 360°",
+    "male": "Male",
+    "female": "Female",
+    "loginToFavorite": "Please login to book a property",
+    "alreadyRequested": "You have already requested this property",
+    "fullName": "Full Name",
+    "enterFullName": "Enter your full name",
+    "phoneNumber": "Phone Number",
+    "enterPhoneNumber": "Enter your phone number",
+    "submit": "Submit",
+    "fillAllFields": "Please fill in all fields",
+    "downloadPdf": "Download PDF",
+    "downloadPdfDesc": "Download a detailed PDF report of this property including all images and information",
+    "saveToFavorites": "Save to Favorites",
+    "saveToFavoritesDesc": "Add this property to your favorites list for quick access later",
+    "propertyPhotos": "Property Photos",
+    "propertyPhotosDesc": "Swipe left or right to view all photos of this property. Tap to see them in fullscreen mode",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this property? This action cannot be undone",
+    "aboutThisProperty": "About this Property",
+    "distanceToUni": "Distance to University",
+    "distanceDesc": "This indicates the distance between the property and your university campus. A shorter distance means less commute time and easier access to your classes",
+    "loginToSaveFavorites": "Please login to save favorites",
+    "favoriteUpdateFailed": "Failed to update favorites",
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites",
+    "propertyDeletedSuccessfully": "Property deleted successfully",
+    "errorDeletingProperty": "Error deleting property",
+    "loginToRateProperties": "Please login to rate properties",
+    "ratingSubmittedSuccessfully": "Rating submitted successfully",
+    "failedToSubmitRating": "Failed to submit rating",
+    "agentPhoneNotAvailable": "Agent phone number is not available",
+    "couldNotOpenWhatsApp": "Could not open WhatsApp",
+    "mapView": "Map View",
+    "satellite": "Satellite",
+    "normal": "Normal",
+    "myLocation": "My Location",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "rateThisProperty": "Rate this Property",
+    "ratingWithValue": "Your rating: {rating}",
+    "insuranceWithAmount": "Insurance: {amount} EGP",
+    "@ratingWithValue": {
+        "placeholders": {
+            "rating": {}
+        }
+    },
+    "@insuranceWithAmount": {
+        "placeholders": {
+            "amount": {}
+        }
+    },
+    "login": "Log In",
+    "emailHint": "Username or Email",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Invalid email address",
+    "password": "Password",
+    "passwordRequired": "Password is required",
+    "passwordLength": "Password must be at least 8 characters",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "signIn": "Sign In",
+    "signInWithGoogle": "Sign in with Google",
+    "noAccount": "Don't have an account? ",
+    "signUp": "Sign Up",
+    "passwordMinChars": "At least 8 characters",
+    "passwordUppercase": "Contains uppercase letter",
+    "passwordLowercase": "Contains lowercase letter",
+    "passwordNumber": "Contains number",
+    "passwordSpecialChar": "Contains special character",
+    "passwordsMatch": "Passwords match",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "oopsSomethingWrong": "Oops! Something went wrong",
+    "noFavoriteProperties": "No favorite properties yet",
+    "pleaseLoginToRemoveFavorites": "Please login to remove favorites",
+    "failedToRemoveFavorite": "Failed to remove from favorites",
+    "availableStatus": "Available",
+    "notAvailableStatus": "Not Available",
+    "perMonthPrice": "EGP {price}/month",
+    "ratings": "{rating} ({count})",
+    "@perMonthPrice": {
+        "placeholders": {
+            "price": {
+                "type": "Object"
+            }
+        }
+    },
+    "@ratings": {
+        "placeholders": {
+            "rating": {
+                "type": "Object"
+            },
+            "count": {
+                "type": "Object"
+            }
+        }
+    },
+    "vrTour": "Virtual Tour",
+    "vrTourButton": "Start Tour",
+    "vrTourFeature": "Virtual Reality Tour",
+    "vrTourDesc": "Experience an immersive virtual tour of this property in 360°",
+    "requestFormTitle": "Property Request Form",
+    "personalInformation": "Personal Information",
+    "preferredLocation": "Preferred Location",
+    "whereToLive": "Preferred Area to Live",
+    "numberOfBeds": "Number of Bedrooms",
+    "howManyBeds": "How many bedrooms do you need?",
+    "budgetPerMonth": "Monthly Budget",
+    "yourMonthlyBudget": "What is your monthly budget in EGP?",
+    "currency": "EGP:",
+    "thankYou": "Thank You!",
+    "requestSubmitted": "Your property request has been submitted successfully. We will contact you if a matching property becomes available.",
+    "ok": "OK",
+    "requestStatus": "Request Status",
+    "processingRequest": "Your property request is being processed",
+    "currentStatus": "Current Status",
+    "statusPendingMessage": "We're reviewing your request and will update you as soon as possible. This usually takes 24-48 hours.",
+    "statusApprovedMessage": "Great news! Your request has been approved. Our team will be in touch with you soon.",
+    "statusRejectedMessage": "Unfortunately, we couldn't find a matching property at this time. Please try adjusting your requirements.",
+    "createNewRequest": "Create a new request",
+    "welcomeToRequest": "Welcome to Property Request",
+    "requestDescription": "This page is designed for requesting specific properties that you haven't found in our property listings.",
+    "contactAgent": "For immediate assistance, you can contact our agent directly:",
+    "agentsPage": "View Agents",
+    "gotIt": "Got it",
+    "activeRequest": "You already have an active property request. Please wait for it to be processed.",
+    "outsideWorkingHours": "Sorry, requests cannot be submitted outside working hours",
+    "pleaseEnter": "Please enter {field}",
+    "invalidNumber": "Please enter a valid number",
+    "mustBeGreaterThanZero": "{field} must be greater than 0",
+    "@pleaseEnter": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "@mustBeGreaterThanZero": {
+        "placeholders": {
+            "field": {
+                "type": "String"
+            }
+        }
+    },
+    "reservationForm": "Property Request Form",
+    "expectedPrice": "Expected Price",
+    "tenantPhone": "Phone Number",
+    "createRequest": "Create Request",
+    "requestProcessing": "Your request is being processed",
+    "requestRejected": "Request Rejected",
+    "requestNotAvailable": "Sorry, your specific request is not available at this time.",
+    "requestAccepted": "Request Accepted",
+    "requestAvailable": "Your request is available! Our agent will contact you within minutes.",
+    "newRequest": "Create a new request",
+    "welcomeRequest": "Welcome to Property Request",
+    "requestFormDesc": "This page is designed for requesting specific properties that you haven't found in our property listings.",
+    "contactAgentDesc": "For immediate assistance, you can contact our agent directly:",
+    "requestSubmitSuccess": "Your property request has been submitted successfully. We will contact you if a matching property becomes available.",
+    "activeRequestExists": "You already have an active property request. Please wait for it to be processed.",
+    "enterValidNumber": "Please enter a valid number",
+    "requestBeingProcessed": "We're reviewing your request and will update you as soon as possible. This usually takes 24-48 hours.",
+    "requestApprovedMessage": "Great news! Your request has been approved. Our team will be in touch with you soon.",
+    "requestRejectedMessage": "Unfortunately, we couldn't find a matching property at this time. Please try adjusting your requirements.",
+    "servicesPageTitle": "University Services",
+    "searchServices": "Search services...",
+    "selectUniversity": "Select University",
+    "selectCategory": "Select Category",
+    "allOption": "All",
+    "noServicesFound": "No services found",
+    "category": "Category: {category}",
+    "deleteService": "Delete Service",
+    "deleteServiceConfirm": "Are you sure you want to delete this service? This action cannot be undone.",
+    "serviceDeletedSuccess": "Service deleted successfully",
+    "errorDeletingService": "Error deleting service: {error}",
+    "errorEditingService": "Error editing service: {error}",
+    "restaurant": "Restaurant",
+    "supermarket": "Supermarket",
+    "copyCenter": "Copy Center",
+    "other": "Other",
+    "@category": {
+        "description": "Category label with the category name",
+        "placeholders": {
+            "category": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorDeletingService": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "@errorEditingService": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "propertyAgents": "Property Agents",
+    "noAgentsAvailable": "No Agents Available",
+    "checkBackAgents": "Check back soon for our property agents",
+    "realEstate": "Real Estate",
+    "insuranceAgent": "Insurance",
+    "unnamedAgent": "Unnamed Agent",
+    "noPhone": "No phone",
+    "yearsExperience": "{years} yrs",
+    "@yearsExperience": {
+        "placeholders": {
+            "years": {
+                "type": "int"
+            }
+        }
+    },
+    "call": "Call",
+    "profile": "Profile",
+    "phoneNumberNotAvailable": "Phone number not available",
+    "couldNotInitiateCall": "Could not initiate call",
+    "errorInitiatingCall": "Error initiating call",
+    "forgotPasswordDescription": "Enter your email address and we'll send you a link to reset your password.",
+    "passwordResetLinkSent": "Password reset link sent to your email.",
+    "noAccountFound": "No account found with this email.",
+    "tooManyAttempts": "Too many attempts. Please try again later.",
+    "networkError": "Network error. Please check your connection.",
+    "pleaseEnterEmail": "Please enter your email",
+    "pleaseEnterValidEmail": "Please enter a valid email",
+    "failedToSendResetEmail": "Failed to send reset email. Please try again.",
+    "unexpectedError": "An unexpected error occurred. Please try again.",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "navTourHome": "Browse available properties and explore housing options",
+    "navTourFavorites": "Access your saved favorite properties",
+    "navTourRequest": "Submit a new property request",
+    "navTourAgents": "Connect with our real estate agents",
+    "navTourServices": "Explore additional services for tenants",
+    "navTourSettings": "Access app settings and preferences",
+    "navHome": "Home",
+    "navFavorites": "Favorites",
+    "navRequest": "Request",
+    "navAgents": "Agents",
+    "navServices": "Services",
+    "navSettings": "Settings",
+    "@navTourHome": {
+        "description": "Navigation tour description for home tab"
+    },
+    "@navTourFavorites": {
+        "description": "Navigation tour description for favorites tab"
+    },
+    "@navTourRequest": {
+        "description": "Navigation tour description for request tab"
+    },
+    "@navTourAgents": {
+        "description": "Navigation tour description for agents tab"
+    },
+    "@navTourServices": {
+        "description": "Navigation tour description for services tab"
+    },
+    "@navTourSettings": {
+        "description": "Navigation tour description for settings tab"
+    },
+    "@navHome": {
+        "description": "Navigation label for home tab"
+    },
+    "@navFavorites": {
+        "description": "Navigation label for favorites tab"
+    },
+    "@navRequest": {
+        "description": "Navigation label for request tab"
+    },
+    "@navAgents": {
+        "description": "Navigation label for agents tab"
+    },
+    "@navServices": {
+        "description": "Navigation label for services tab"
+    },
+    "@navSettings": {
+        "description": "Navigation label for settings tab"
+    },
+    "findYourHome": "Find Your Perfect Home",
+    "@findYourHome": {
+        "description": "Header text for the home page encouraging users to find their ideal property"
+    }
+} 

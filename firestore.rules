@@ -1,0 +1,62 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Common functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // Properties collection rules
+    match /properties/{propertyId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isOwner(resource.data.userId) || isOwner(request.resource.data.userId));
+      
+      // Allow listing/querying properties
+      allow list: if isAuthenticated();
+    }
+
+    // Users collection rules
+    match /users/{userId} {
+      allow read: if isAuthenticated() && isOwner(userId);
+      allow write: if isAuthenticated() && isOwner(userId);
+      
+      // Chat sessions subcollection
+      match /chatSessions/{sessionId} {
+        allow read: if isAuthenticated() && isOwner(userId);
+        allow write: if isAuthenticated() && isOwner(userId);
+        
+        // Messages subcollection
+        match /messages/{messageId} {
+          allow read: if isAuthenticated() && isOwner(userId);
+          allow create: if isAuthenticated() && isOwner(userId);
+          allow update: if isAuthenticated() && isOwner(userId);
+          allow delete: if isAuthenticated() && isOwner(userId);
+        }
+      }
+      
+      // Favorites subcollection
+      match /favorites/{propertyId} {
+        allow read: if isAuthenticated() && isOwner(userId);
+        allow write: if isAuthenticated() && isOwner(userId);
+      }
+    }
+
+    // Real Estate FAQs collection
+    match /realEstateFAQs/{faqId} {
+      allow read: if isAuthenticated();
+      // Only allow writes from admin
+      allow write: if false;
+    }
+
+    // Admin users collection rules
+    match /adminUsers/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Only allow admin updates through backend functions
+    }
+  }
+}
